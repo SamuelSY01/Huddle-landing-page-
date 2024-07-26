@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(./img/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+section img{
+    width: 20rem;
+    padding: 5rem;
+}
+main img{
+    display: flex;
+    width: 32rem;
+    height: 22rem;
+    padding-left: 5rem;
+}
+main h1{ 
+    position: absolute;
+    text-align: center;
+    left: 8rem;
+    top: 38rem;
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: 600;   
+}
+main p{
+    position: absolute;
+    text-align: center;
+    width: 23rem;
+    left: 8rem; 
+    top: 45rem;
+    font-family: open sans;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+button{
+    position: absolute;
+    left: 12rem;
+    top: 57rem;
+    width: 16rem;
+    height: 3.5rem;
+    border-radius: 5rem;
+    border: 0.2rem  black;
+    box-shadow: 0rem 0rem 1rem  rgb(0, 0, 0, 0.5);
+    border: none;
+    font-family: Poppins;
+    font-size: 1.2rem ;
+    font-weight: 450;
+    color: hsl(257, 40%, 49%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 10rem;
+    position: absolute;
+    left: 14.6rem;
+    top: 65rem;
+}
+
+@media (min-width: 600px ){
+    body{
+        background-image: url(./img/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section img{
+        width: 30rem;
+    }
+    main img{
+        display: flex;
+        width: 60rem;
+        height: 40rem;
+    }
+    main h1{
+        text-align: left;
+        position: absolute;
+        left: 64rem;
+        top: 20rem;
+        min-width: 50rem;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: poppins;
+    }
+    main p{
+        text-align: left;
+        position: absolute;
+        width: 45rem;
+        left: 64rem;
+        top: 32rem; 
+        font-size: 1.5rem;
+    }
+    button{
+        border: 0.2rem  black;
+        box-shadow: 0rem 0rem 1rem  rgb(0, 0, 0, 0.5);
+        position: absolute;
+        left: 64rem;
+        top: 41rem;
+        width: 14rem;
+        height: 4rem;
+    }
+    button:hover {
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+    }
+    .container{
+        position: absolute;
+        left: 110rem;
+        top: 58rem;
+    }
+}
