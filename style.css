@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
@@ -73,6 +73,7 @@ button{
         background-color: hsl(257, 40%, 49%);
         background-size: cover;
         background-repeat: no-repeat;
+        
     }
     section img{
         width: 30rem;
